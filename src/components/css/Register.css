@@ -1,0 +1,76 @@
+/* Center the register popup in the middle of the screen */
+.register-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%; /* 50% width of the screen */
+    max-width: 400px; /* Max width for larger screens */
+    min-width: 300px; /* Prevent the form from becoming too small */
+    z-index: 1000;
+  }
+  
+  /* Heading styling */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Form group styling for label and inputs */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form labels */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  /* Input field styling */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Checkbox styling */
+  .form-group input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  
+  /* Optional styling for error messages (if needed in the future) */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  

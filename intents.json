@@ -1,0 +1,169 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+              "Hello",
+              "Hi",
+              "Hey",
+              "Good morning",
+              "Good afternoon",
+              "Good evening",
+              "Greetings",
+              "What's up?",
+              "Howdy",
+              "Is anyone there?"
+            ],
+            "responses": [
+              "Hello! How can I assist you today?",
+              "Hi there! What can I do for you?",
+              "Greetings! How may I help you?",
+              "Good day! Feel free to ask me anything.",
+              "Hey! What information or service are you looking for?",
+              "Hello! I'm here to help. Let me know what you need.",
+              "Hi! How can I make your experience better today?",
+              "Hello there! How may I assist you?",
+              "Hi! What would you like to know about our services?",
+              "Greetings! I'm here to guide you. Ask me anything."
+            ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services are available?",
+          "Tell me about your services",
+          "What can you do?",
+          "What do you provide?",
+          "What are your offerings?",
+          "Can you explain your services?",
+          "Do you help with grievances?",
+          "Can you assist with documentation?",
+          "Do you provide public information?",
+          "What can this system do for me?",
+          "How can you assist citizens?",
+          "Tell me about your capabilities.",
+          "I want to know more about your services.",
+          "Do you have any specific features?",
+          "What services are offered for grievance resolution?",
+          "Can you help me track a complaint?",
+          "Are there any mobile app features?"
+        ],
+        "responses": [
+            "We offer a wide range of services, including grievance redressal, documentation assistance, and public information dissemination.",
+            "Our primary services include:\n1) Filing and tracking grievances.\n2) Assistance with government documentation and procedures.\n3) Dissemination of important public information and updates.",
+            "We assist with:\n- Grievance filing and follow-ups.\n- Providing information about government schemes and services.\n- Simplifying bureaucratic procedures for citizens.",
+            "You can rely on us for filing complaints, resolving issues, and obtaining critical government-related information.",
+            "Our services are designed to help citizens:\n1) File complaints.\n2) Track their complaint status.\n3) Receive assistance for documentation and applications.",
+            "We simplify access to government services by offering:\n- Grievance redressal mechanisms.\n- Comprehensive guidance on forms and applications.\n- Updates on schemes and policies.",
+            "Our key services include:\n- Lodging complaints through the grievance system.\n- Providing information about ongoing government initiatives.\n- Facilitating resolution of citizen queries.",
+            "We offer support for:\n1) Filing grievances.\n2) Accessing public resources.\n3) Obtaining assistance with government processes and forms.",
+            "The services available include:\n- A grievance redressal portal.\n- Support for filing and managing complaints.\n- Resources for government procedures and schemes.",
+            "We provide quick and efficient services, such as:\n- Grievance filing and tracking.\n- Simplified documentation assistance.\n- Notifications about government updates and policies."
+          ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "How can I file a complaint?",
+          "Where can I register my complaint?",
+          "File a complaint",
+          "How do I submit a complaint?",
+          "Is there a way to file complaints online?",
+          "How can I report an issue?",
+          "Where do I go to register a complaint?",
+          "Can I file a complaint on the mobile app?",
+          "Is there a section for complaints on your website?",
+          "What is the process to file a complaint?",
+          "Do I need to create an account to register a complaint?",
+          "How long does it take to process a complaint?",
+          "Can I track the status of my complaint?",
+          "Are there templates for complaint registration?",
+          "Do you offer grievance escalation?",
+          "What if I can't file a complaint?",
+          "Is there any help for urgent complaints?",
+          "How do I know if my complaint is valid?"
+        ],
+        "responses": [
+            "You can file a complaint by visiting the 'Grievance Redressal' section on our website. Just fill in the details, and our team will review it promptly.",
+            "To register a complaint, go to the 'Submit Complaint' page and provide all necessary information, including relevant documents if required.",
+            "You can raise a grievance through our mobile app by navigating to the 'File Complaint' option. It's quick and user-friendly.",
+            "Visit the 'Complaints' section on our homepage. There, you'll find a simple form to log your issue or concern.",
+            "We provide multiple ways to file a complaint:\n1) Through our website's grievance section.\n2) Via the mobile app.\n3) By calling our helpline for assistance.",
+            "To report an issue:\n- Log into your account.\n- Go to the 'Submit Complaint' page.\n- Fill out the complaint form and upload any supporting documents.",
+            "Raise your grievance online by completing the 'Complaint Registration' form. Ensure you provide accurate details for quicker resolution.",
+            "To submit a complaint:\n- Click on 'File Complaint' on the website or app.\n- Provide the details of your issue, along with any necessary evidence or attachments.",
+            "Our platform makes it easy to lodge complaints. Simply navigate to the 'Grievance Submission' area and follow the step-by-step guide.",
+            "Need to file a complaint? Use the 'Report Issue' button on our dashboard to log your grievance in minutes."
+          ]
+      },
+      {
+        "tag": "rules",
+        "patterns": [
+          "What are the rules of this system?",
+          "Tell me about the regulations.",
+          "What rules do I need to follow?",
+          "Are there guidelines for using the platform?",
+          "What are the rules for filing complaints?",
+          "What policies are in place?",
+          "Is there a code of conduct?",
+          "Can you explain the rules?",
+          "What are the dos and don'ts for users?",
+          "Are there any restrictions?"
+        ],
+        "responses":[
+            "Here are some important rules for using our platform:\n- Provide complete and accurate details for complaints.\n- Respect others and avoid abusive language.\n- Duplicate or fake complaints are not allowed.\nVisit the 'Rules & Regulations' page for more details.",
+            "To use our system effectively, adhere to these rules:\n1) Complaints must be factual and precise.\n2) Avoid filing the same complaint multiple times.\n3) Use the escalation process only if necessary and justified.",
+            "Our platform has the following guidelines:\n- Ensure your complaint is genuine and necessary.\n- Offensive behavior or misuse of the platform is prohibited.\n- Confidential information should be handled with care.",
+            "You must follow these rules:\n1) Complaints must relate to valid grievances.\n2) Maintain a respectful tone in all your communications.\n3) Misuse of the platform can lead to account restrictions.",
+            "The key rules include:\n- Submit complaints with valid details and supporting documents.\n- Avoid filing grievances for non-relevant issues.\n- Follow timelines for escalation and updates responsibly.",
+            "Important rules to keep in mind:\n- Ensure complaints are genuine and not made in bad faith.\n- Do not submit multiple complaints for the same issue.\n- Misuse of this service may result in penalties or restrictions.",
+            "Our policies emphasize:\n- Factual and honest submissions.\n- No spam or irrelevant complaints.\n- Confidentiality in all sensitive data shared through this platform.",
+            "Key guidelines:\n1) Submit complete and accurate information in complaints.\n2) Avoid hostile or disrespectful interactions.\n3) Allow adequate time for resolution before escalating issues.",
+            "Some important dos and don'ts:\n- DO provide detailed and relevant information for complaints.\n- DO NOT use inappropriate language or submit false claims.\n- DO respect the escalation process and timelines.",
+            "Here are some quick rules:\n- Ensure accuracy in your complaints.\n- Respect timelines for response and escalation.\n- Maintain decorum when interacting with others."
+          ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "Take care",
+          "Catch you later",
+          "I’m leaving",
+          "Talk to you later"
+        ],
+        "responses": [
+          "Goodbye! Have a great day ahead!",
+          "Bye! Feel free to reach out if you need more help.",
+          "Take care! See you soon.",
+          "Goodbye! Stay safe and let us know if you need assistance.",
+          "Bye! Wishing you a wonderful day!",
+          "Goodbye! Thank you for using our services."
+        ]
+      },
+      
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Much appreciated",
+          "I’m grateful",
+          "Thanks a lot",
+          "Thank you very much",
+          "Thanks for your help",
+          "I appreciate it"
+        ],
+        "responses": [
+          "You're welcome! Glad I could help.",
+          "No problem! Happy to assist.",
+          "Always here to help you.",
+          "You're welcome! Let me know if there's anything else you need.",
+          "It’s my pleasure to help.",
+          "You're most welcome! Feel free to ask more questions."
+        ]
+      }
+    ]
+  }

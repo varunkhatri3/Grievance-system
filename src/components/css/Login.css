@@ -1,0 +1,88 @@
+/* Center the login popup in the middle of the screen */
+.login-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%; /* 50% width of the screen */
+    max-width: 400px; /* Max width for larger screens */
+    min-width: 300px; /* Prevent the form from becoming too small */
+    z-index: 1000;
+  }
+  
+  /* Form styling */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button.btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @keyframes rotateBackground {
+    0% {
+      background-image: url("government-building.jpg");
+    }
+    25% {
+      background-image: url("scales-of-justice.jpg");
+    }
+    50% {
+      background-image: url("citizen-interaction.jpg");
+    }
+    75% {
+      background-image: url("new-photo.jpg"); /* Add the new image here */
+    }
+    100% {
+      background-image: url("government-building.jpg"); /* Return to the first image */
+    }
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    animation: rotateBackground 20s infinite; /* Adjust timing for four images */
+    background-size: cover;
+    background-position: center;
+  }
